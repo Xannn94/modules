@@ -5,14 +5,14 @@
     {!! BootForm::open(['model' => $entity, 'store' => $routePrefix.'store', 'update' => $routePrefix.'update', 'autocomplete' => 'off',
    'files' => true]) !!}
 
-    /** Пример текстового поля **/
+    {{--Пример текстового поля--}}
 
-    {{--<div class="col-md-6">
+    <div class="col-md-6">
         {!! BootForm::text('title', trans('admin::fields.title')) !!}
-    </div>--}}
+    </div>
 
 
-    /** чтобы были seo поля раскоментируйте **/
+    {{--Чтобы были seo поля раскоментируйте--}}
 
     {{--@include('admin::common.forms.seo')--}}
 
