@@ -1,0 +1,13 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Http\Request;
+
+use DummyRootNamespace\Http\Requests;
+use DummyRootNamespace\Http\Controllers\Controller;
+
+class DummyClass extends Controller
+{
+    //
+}
