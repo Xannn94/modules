@@ -8,7 +8,6 @@
 
             {{--Пагинатор--}}
             {{  $items->appends(\Request::except('page'))->links('common.paginate') }}
-
         @else
             <p>@lang('DummySlug::index.no_records')</p>
         @endif

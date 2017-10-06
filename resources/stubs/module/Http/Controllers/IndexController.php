@@ -7,12 +7,8 @@ use App\Modules\DummyName\Models\DummyName;
 
 class IndexController extends Controller
 {
-
-
     public function getModel()
     {
         return new DummyName;
     }
-
-
 }

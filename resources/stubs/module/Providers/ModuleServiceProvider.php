@@ -7,7 +7,6 @@ use App\Providers\ModuleProvider;
 
 class ModuleServiceProvider extends ModuleProvider
 {
-
     public $module = 'DummySlug';
 
     /**
